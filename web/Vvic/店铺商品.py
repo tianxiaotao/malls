@@ -10,7 +10,7 @@ import requests
 headers = {
     'Accept': 'application/json, text/plain, */*',
     'Accept-Language': 'en,zh-CN;q=0.9,zh;q=0.8,ja;q=0.7',
-    'Cookie': 'source=m;userLoginAuto=1;vvic_token=ac43051e-2d0e-43f7-978a-e89698461386;userName=vvic9153980633;umc=1;pn=0;',
+    'Cookie': 'source=m;userLoginAuto=1;vvic_token=xxxxxxxx-2d0e-43f7-978a-xxxxxxxxx;userName=vvic9150080000;umc=1;pn=0;',
     'Referer': 'https://www.vvic.com',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
     'token': '',
