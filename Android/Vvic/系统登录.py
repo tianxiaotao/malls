@@ -14,8 +14,8 @@ import hashlib
 # acc = '18700477317'
 # pasd = 'LEIjian0326'
 
-acc = 'brandom@vip.qq.com'
-pasd = 'sn5diphone6'
+acc = '12323131231@gmail.com'
+pasd = '000000000'
 
 headers = {
     'andriodid': '12e7b43fb83ffc1e',
