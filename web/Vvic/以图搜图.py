@@ -14,17 +14,15 @@ import os
 headers = {
     'Accept': 'application/json, text/plain, */*',
     'Accept-Language': 'en,zh-CN;q=0.9,zh;q=0.8,ja;q=0.7',
-    'Cookie': 'source=m;userLoginAuto=1;vvic_token=5129759f-1d9b-4815-8c34-88487e267db6;uid=2862702;userName=vvic9153980633;umc=1;pn=0',
+    'Cookie': 'source=m;userLoginAuto=1;vvic_token=xxxxxxxxx-1d9b-4815-8c34-xxxxxxxxxx;uid=000000;userName=vvic915300000;umc=1;pn=0',
     'Referer': 'https://tusou.vvic.com',
     'Accept-Encoding': 'gzip, deflate, br, zstd',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
 }
 
 arrProxy = [
-    { 'host': 'http-dyn.abuyun.com', 'port': '9020', 'user': 'H3Y74E32U40W05WD', 'passwd':'2C28A7BADDEFC07E' },
-    { 'host': 'http-dyn.abuyun.com', 'port': '9020', 'user': 'HF3EB2F5Z234U93D', 'passwd':'D4EF9422DB13799A' },
-    # { 'host': 'http-proxy-t3.dobel.cn', 'port': '9180', 'user': 'BBBBBBAE8ITN4O0', 'passwd':'LBMEcBEa' },
-    # { 'host': 'http-proxy-t3.dobel.cn', 'port': '9180', 'user': 'AAAAAA0EIITMO90', 'passwd':'2ckMpwue' },
+    { 'host': 'http-proxy-t3.dobel.cn', 'port': '9180', 'user': 'BBBBBBAE8ITN4O0', 'passwd':'LBMEcBEa' },
+    { 'host': 'http-proxy-t3.dobel.cn', 'port': '9180', 'user': 'AAAAAA0EIITMO90', 'passwd':'2ckMpwue' },
 ]
 
 proxy = random.choice( arrProxy )
@@ -39,8 +37,6 @@ proxies = {
     "http": proxyMeta,
     "https": proxyMeta,
 }
-
-print( proxies )
 
 def getOssPolicy():
     headers[ 'Content-Type' ] = 'application/x-www-form-urlencoded'
