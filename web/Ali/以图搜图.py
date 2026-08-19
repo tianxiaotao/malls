@@ -15,7 +15,7 @@ import json
 import urllib
 import base64
 
-strCookie = 'thw=cn; cna=Uk3xHulLKUUCAT2WC8a/aq/b; mtop_partitioned_detect=1; _m_h5_tk=f9610dcdc6a292aa1a367827f6b72dc8_1746012187485; _m_h5_tk_enc=cf3816a2b95614e373108c3621dc3edd'
+strCookie = 'thw=cn; cna=Uk3xHulLKUUCAT2WC8a/aq/b; mtop_partitioned_detect=1; _m_h5_tk=xxxxxxxxxx_xxxxxxx; _m_h5_tk_enc=xxxxxxxxxxxxx'
 
 headers = {
     'Accept': 'application/json',
