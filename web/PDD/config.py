@@ -8,11 +8,11 @@
 
 account = [
     {
-        'uid': 5448981105,
-        'token': '2JNVTHB4FHLNKH6EC2LB3PR6A4GHYU4B4ISEEI5UGWBQDCZ6R3CA1227177'
+        'uid': 000000,
+        'token': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
     },
     {
-        'uid': 6021466805,
-        'token': 'AIJJZFKTPG7U6A22HUYGBP6MU22OMCKWAAOEBA4VNJ6WRL5OBV3Q122b520'
+        'uid': 000000,
+        'token': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
     }
 ]
