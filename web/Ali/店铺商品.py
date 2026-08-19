@@ -16,8 +16,8 @@ ETag = re.findall( r'goldlog.Etag="(.*?)";', response.text.strip() )[0]
 
 
 cookies = {
-    '_m_h5_tk': 'f9610dcdc6a292aa1a367827f6b72dc8_1746012187485',
-    '_m_h5_tk_enc': 'cf3816a2b95614e373108c3621dc3edd',
+    '_m_h5_tk': 'xxxxxxxxxxxxxxxx_xxxxxxxx',
+    '_m_h5_tk_enc': 'xxxxxxxxxxxxxxxx',
     'cna': ETag,
     'mtop_partitioned_detect': '1',
     'x5sec':'7b22733b32223a2236353165643538383231633835313533222c226c61707574613b32223a226237353039346162303563616663356162343164653536656432323438363338434c766d2b724947454c37716d6558362f2f2f2f2f774577397179704b673d3d227d'
